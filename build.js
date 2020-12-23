@@ -1,2 +1,2 @@
-const config = require('./config')
-console.log(config)
+const configPath = require.resolve('./config')
+console.log(configPath)
